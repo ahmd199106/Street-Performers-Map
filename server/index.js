@@ -10,7 +10,7 @@ app.use(cors()); // Use the cors middleware
 
 
 app.get("/", (req, res) => {
-  res.send("Express independent Backend is working fine");
+  res.send('Express independent Backend is working ');
 });
 
 const PORT = 3001;

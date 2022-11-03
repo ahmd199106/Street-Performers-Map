@@ -2,7 +2,7 @@
     "compilerOptions": {
       "module": "commonjs",
       "target": "es6",
-      "rootDir": "./",
+      "rootDir": "./server",
       "outDir": "./build",
       "esModuleInterop": true,
       "noImplicitAny": true,
@@ -10,11 +10,9 @@
       "resolveJsonModule": true
     },
     "exclude": ["node_modules"],
-    "files": ["index.ts"],
+    "files": ["./server/index.ts"],
     "include": [
-        "next-env.d.ts",
-        "**/*.ts",
-        "**/*.tsx"
+        "server"
       ],
     "ts-node": {
       "files": true
